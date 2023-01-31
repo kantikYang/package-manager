@@ -1,0 +1,27 @@
+{
+  "name": "super-package-manager",
+  "version": "1.2.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "package-manager": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nathanKith/package-manager.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nathanKith/package-manager/issues"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^7.2.0",
+    "execa": "^5.0.0"
+  },
+  "preferGlobal": true,
+  "author": {
+    "name": "nathanKith",
+    "email": "ntolparov@mail.ru"
+  },
+  "license": "ISC"
+}
